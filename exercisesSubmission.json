@@ -1,55 +1,55 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Rishabh Jain",
+  "email": "contact@rishabh1403.com",
+  "batch": "January Batch - Batch 4",
   "exercises": {
     "array-sum-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "create-object-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "every-nth-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "factorial-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "get-name-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "logical-operators": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "number-sum-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "return-a-function-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "return-a-string-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "return-true-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "stack-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "sum-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     }
   }
 }
