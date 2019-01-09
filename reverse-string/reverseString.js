@@ -1,6 +1,6 @@
 
-function reverseString(...args) {
-  return args;
+function reverseString(s) {
+  return s.split("").reverse().join("");
 }
 
 export {
