@@ -4,28 +4,28 @@
   "batch": "Batch Number",
   "exercises": {
     "factorial": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "is-odd": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "is-even": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "is-triangle": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "counter": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "counter-factory": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "limit-function-call-count": {
       "completed": false,
@@ -40,24 +40,24 @@
       "rating": null
     },
     "boo-who": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "sum-fibs": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "sum-primes": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "rectangle-diagonal": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "three-sum": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "sum-of-perfect-squares": {
       "completed": false,
