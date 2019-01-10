@@ -10,6 +10,7 @@ describe('SavingsAccount', () => {
       products: [],
     };
     const actualAccount = new SavingsAccount('123456', 'kohli@gmail.com', 'Virat', 'Kohli');
+    console.log(actualAccount);
     expect(actualAccount).toEqual(myAccount);
   });
 
