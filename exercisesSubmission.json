@@ -1,67 +1,67 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Rishabh Jain",
+  "email": "contact@rishabh1403.com",
+  "batch": "Jan 2019 - 4th Batch",
   "exercises": {
     "slasher": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "chunk-array-in-groups": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "find-element": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "drop-elements": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "update-inventory": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "smallest-commons": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "truth-check": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "orbital-period": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "object-keys": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "object-values": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "map-object": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "object-pairs": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "object-invert": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "object-defaults": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "user-check-password": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     }
   }
 }

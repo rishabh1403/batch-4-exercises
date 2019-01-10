@@ -1,6 +1,11 @@
 
-function objectPairs(...args) {
-  return args;
+function objectPairs(obj) {
+  let x = [];
+  for (let i in obj) {
+    let temp = [i, obj[i]];
+    x.push(temp);
+  }
+  return x;
 }
 
 export {
