@@ -1,31 +1,31 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Rishabh Jain",
+  "email": "contact@rishabh1403.com",
+  "batch": "Jan - 4th ",
   "exercises": {
     "boolean": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "days-in-month": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "json-parse": {
       "completed": false,
       "rating": null
     },
     "lowercase-keys": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "math-fns": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "parse-ms": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     },
     "round-to": {
       "completed": false,
@@ -36,8 +36,8 @@
       "rating": null
     },
     "abbreviate-string": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "add-big-integers": {
       "completed": false,
@@ -48,8 +48,8 @@
       "rating": null
     },
     "permutate-with-repetitions": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 5
     },
     "throw-errors": {
       "completed": false,
