@@ -36,8 +36,8 @@
       "rating": 3
     },
     "place-in-middle": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "print-full-name": {
       "completed": true,
