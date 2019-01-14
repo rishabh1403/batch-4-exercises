@@ -1,7 +1,7 @@
 {
-  "name": "Your name",
-  "email": "Your email",
-  "batch": "Batch Number",
+  "name": "Rishabh Jain",
+  "email": "contact@rishabh1403.com",
+  "batch": "4",
   "exercises": {
     "alphabetic-shift": {
       "completed": false,
@@ -36,8 +36,8 @@
       "rating": null
     },
     "is-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "promise-all-props": {
       "completed": false,
