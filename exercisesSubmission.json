@@ -4,8 +4,8 @@
   "batch": "4",
   "exercises": {
     "alphabetic-shift": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "all-promises": {
       "completed": true,
@@ -16,8 +16,8 @@
       "rating": 2
     },
     "reject-promise": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "queue": {
       "completed": false,
