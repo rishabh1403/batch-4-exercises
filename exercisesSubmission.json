@@ -32,8 +32,8 @@
       "rating": null
     },
     "timeout": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "is-promise": {
       "completed": true,
