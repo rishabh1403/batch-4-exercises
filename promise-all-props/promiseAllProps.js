@@ -1,4 +1,4 @@
-
+// TODO refactor this code
 function promiseAllProps(props) {
   return new Promise((resolve) => {
     const keys = Object.keys(props);
