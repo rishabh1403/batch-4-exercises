@@ -8,8 +8,8 @@
       "rating": 3
     },
     "ackermann": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "aperture": {
       "completed": false,
