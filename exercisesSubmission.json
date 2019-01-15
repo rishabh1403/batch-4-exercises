@@ -36,8 +36,8 @@
       "rating": null
     },
     "simple-iterable": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 4
     }
   }
 }
