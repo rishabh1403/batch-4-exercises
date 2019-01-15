@@ -28,8 +28,8 @@
       "rating": 2
     },
     "is-iterable-empty": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "range-iter": {
       "completed": false,
