@@ -36,8 +36,8 @@
       "rating": null
     },
     "sudan-fn": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "summable": {
       "completed": false,
@@ -48,8 +48,8 @@
       "rating": 3
     },
     "tiles": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "to-pairs": {
       "completed": false,
