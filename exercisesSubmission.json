@@ -24,8 +24,8 @@
       "rating": null
     },
     "slice": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "split-every": {
       "completed": false,
@@ -44,8 +44,8 @@
       "rating": null
     },
     "theatre": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "tiles": {
       "completed": false,
