@@ -15,11 +15,10 @@ function negativeIndex(array) {
   if (not(Array.isArray(array))) {
     throw new TypeError(/Only arrays are supported/);
   }
-  const newArray = array;
-  const proxy = new Proxy(newArray, {
+  const proxy = new Proxy(array, {
     get(target, key) {
       const newKey = calculateKey(key, target);
-      return target[newKey];
+      return Reflect.get(target, newKey);
     },
     set(target, key, value) {
       const newKey = calculateKey(key, target);
