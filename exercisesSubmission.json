@@ -56,8 +56,8 @@
       "rating": null
     },
     "type-js": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     }
   }
 }
