@@ -12,8 +12,8 @@
       "rating": null
     },
     "known-prop": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "negative-index": {
       "completed": false,
