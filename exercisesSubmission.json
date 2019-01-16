@@ -8,8 +8,8 @@
       "rating": 2
     },
     "unnest": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "uniq": {
       "completed": false,
