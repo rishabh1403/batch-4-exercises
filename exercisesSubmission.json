@@ -56,12 +56,12 @@
       "rating": null
     },
     "strikeout": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "tooltip": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     }
   }
 }
