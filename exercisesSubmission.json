@@ -44,8 +44,8 @@
       "rating": 1
     },
     "html-text-formatting": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "iframe": {
       "completed": false,
