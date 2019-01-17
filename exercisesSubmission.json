@@ -20,8 +20,8 @@
       "rating": null
     },
     "primality-test": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "boolean-expression-evaluator": {
       "completed": false,
