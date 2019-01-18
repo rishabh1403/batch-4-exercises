@@ -39,3 +39,24 @@ h1 {
 }
 
 /* Your CSS below here */
+article{
+  height: 230mm;
+  background-color: white;
+}
+
+#top-image{
+  position: absolute;
+  top: 0;
+}
+
+#bottom-image{
+  position: absolute;
+  bottom: 0;
+}
+
+#logo{
+  position: absolute;
+  top: 16mm;
+  left: 20mm;
+  /* */
+}

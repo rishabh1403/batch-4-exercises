@@ -36,8 +36,8 @@
       "rating": null
     },
     "letterheaded-paper-start": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "positioning-(information-only)": {
       "completed": false,
