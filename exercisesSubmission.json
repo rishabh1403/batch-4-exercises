@@ -24,8 +24,8 @@
       "rating": null
     },
     "animation": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "flexbox": {
       "completed": false,
