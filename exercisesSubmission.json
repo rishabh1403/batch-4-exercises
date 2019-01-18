@@ -24,8 +24,8 @@
       "rating": null
     },
     "cool-information-box-start": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "debugging-css": {
       "completed": true,

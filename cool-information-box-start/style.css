@@ -3,3 +3,14 @@ html {
 }
 
 /* Your CSS below here */
+p{
+  width: fit-content;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 50px;
+  background-color: red;
+  color: red;
+  text-shadow: 2px 2px #000000;
+  letter-spacing: 2px;
+  box-shadow: 5px 10px 18px #888888;
+}
