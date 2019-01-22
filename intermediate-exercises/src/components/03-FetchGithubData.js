@@ -33,8 +33,8 @@ class UsernameForm extends Component {
 
   fetchRepos(username) {
     axios.get(`https://api.github.com/users/${username}/repos`)
-      .then(data => {
-        const repoNames = data.data.map(el => el.name);
+      .then(res => {
+        const repoNames = res.data.map(el => el.name);
         this.setState({
           repos: repoNames,
         });
