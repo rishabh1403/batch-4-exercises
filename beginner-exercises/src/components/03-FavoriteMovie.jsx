@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class FavoriteMovie extends Component {
-
   constructor(props) {
     super(props);
     this.state = { movie: '' };
