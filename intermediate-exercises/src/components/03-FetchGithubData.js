@@ -56,6 +56,8 @@ class UsernameForm extends Component {
   render() {
     return (
       <div>
+        <label htmlFor="username">Enter a github username</label>
+
         <input
           value={this.state.username}
           onChange={this.handleChange}
