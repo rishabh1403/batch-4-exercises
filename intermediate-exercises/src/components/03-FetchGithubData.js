@@ -51,6 +51,9 @@ class UsernameForm extends Component {
 
   handleClick() {
     this.fetchRepos(this.state.username);
+    this.setState({
+      username: '',
+    });
   }
 
   render() {
