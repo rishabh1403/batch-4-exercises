@@ -21,7 +21,7 @@ import PropTypes from 'prop-types';
 
 class RadioGroup extends React.Component {
   static propTypes = {
-    // defaultValue: PropTypes.string,                UN-COMMENT THIS LINE
+    defaultValue: PropTypes.string,                
     children: PropTypes.shape().isRequired,
   };
   render() {
@@ -33,7 +33,7 @@ class RadioGroup extends React.Component {
 
 class RadioOption extends React.Component {
   static propTypes = {
-    // value: PropTypes.string,                       UN-COMMENT THIS LINE
+    value: PropTypes.string,                      
     children: PropTypes.shape().isRequired,
   };
 
