@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function withMouse(Component) {
-  return class A extends React.Component {
+  return class MouseWithComponent extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
