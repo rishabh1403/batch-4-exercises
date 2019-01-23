@@ -2,13 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import './App.css';
 
-const shopItem = (name) => {
+const shopItem = (list) => {
     return {
         type: "SHOP",
-        data: {
-            name,
-            value: false,
-        }
+        data: list
     }
 }
 
@@ -19,9 +16,13 @@ class ListComponent extends React.Component {
     }
     handleClick(data) {
         // console.log(data);
-        // const index = this.props.list.indexOf(data);
-        // const newList
-        // console.log(index);
+        const index = this.props.list.indexOf(data);
+        const newList = JSON.parse(JSON.stringify(this.props.list))
+        newList[index] = {
+            name: newList[index].name,
+            value: !newList[index].value,
+        };
+        this.props.shopItem(newList);
     }
 
     render() {
@@ -37,4 +38,9 @@ class ListComponent extends React.Component {
 const mapStateToProps = state => ({
     list: state,
 });
-export default connect(mapStateToProps, null)(ListComponent);
+
+const mapDispatchToProps = {
+    shopItem
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ListComponent);

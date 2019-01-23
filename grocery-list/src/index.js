@@ -18,13 +18,15 @@ const initialState = {
     ]
 }
 const reducer = (state = initialState.value, action) => {
-    console.log(state);
     switch (action.type) {
         case 'CLEAR': {
             return [];
         }
         case 'ADD': {
             return [...state, action.data];
+        }
+        case 'SHOP': {
+            return action.data;
         }
         default:
             return state;
