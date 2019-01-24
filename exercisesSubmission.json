@@ -4,8 +4,8 @@
   "batch": "4",
   "exercises": {
     "merge-all": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "nth-arg": {
       "completed": false,
