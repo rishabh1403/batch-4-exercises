@@ -1,16 +1,16 @@
 
 function counterFactory() {
-  let c = 0;
+  let count = 0;
   return {
-    increment : function(){
-      c++;
-      return c;
+    increment() {
+      count += 1;
+      return count;
     },
-    decrement : function(){
-      c--;
-      return c;
-    }
-  }
+    decrement() {
+      count -= 1;
+      return count;
+    },
+  };
 }
 
 export {

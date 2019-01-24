@@ -8,12 +8,16 @@ function applyOperator(...args) {
     return numbers.reduce((acc, el) => {
       return eval(`${acc}${operator}${el}`);
     }, 0);
-  } else if (operator === '/' || operator === '*') {
+  }
+  if (operator === '/' || operator === '*') {
     return numbers.reduce((acc, el) => {
       return eval(`${acc}${operator}${el}`);
     }, 1);
   }
-  return 0;
+  return numbers.reduce((acc, el) => {
+    return eval(`${acc}${operator}${el}`);
+  });
+
 }
 
 export {

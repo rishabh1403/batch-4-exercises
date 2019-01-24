@@ -1,12 +1,11 @@
 
 function counter() {
-  let c = 0;
-  return function () {
-    c++;
-    return c;
-  }
+  let count = 0;
+  return () => {
+    count += 1;
+    return count;
+  };
 }
-console.log(counter()());
 export {
   counter,
 };
