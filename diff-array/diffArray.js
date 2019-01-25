@@ -1,13 +1,9 @@
+const not = cond => !cond;
 
-function diffArray(a,b) {
-  let ans=[];
-  for(let i=0;i<a.length;i++){
-    if(b.indexOf(a[i]) === -1) ans.push(a[i])
-  }
-  for(let i=0;i<b.length;i++){
-    if(a.indexOf(b[i]) === -1) ans.push(b[i])
-  }
-  return ans;
+const notInArray = (arr, el) => not(arr.includes(el));
+
+function diffArray(arr1, arr2) {
+  return arr1.filter(el => notInArray(arr2, el)).concat(arr2.filter(el => notInArray(arr1, el)));
 }
 
 export {

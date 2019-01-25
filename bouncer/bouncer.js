@@ -1,10 +1,6 @@
 
 function bouncer(arr) {
-  let ans = [];
-  arr.forEach(e => {
-    if(e) ans.push(e)
-  });
-  return ans;
+  return arr.filter(el => Boolean(el));
 }
 
 export {

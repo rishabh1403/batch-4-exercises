@@ -1,12 +1,14 @@
-
-function sumAll(arr) {
-  let sum = 0;
-  if(arr[0]<arr[1]){
-    for(let i=arr[0];i<=arr[1];i++) sum += i;
-  }else{
-    for(let i=arr[1];i<=arr[0];i++) sum += i;
+function sumRange(initialValue, finalValue, sum = 0) {
+  if (initialValue > finalValue) {
+    return sum;
   }
-  return sum;
+  return sumRange(initialValue + 1, finalValue, sum + initialValue);
+}
+function sumAll(range) {
+  if (range[0] < range[1]) {
+    return sumRange(range[0], range[1]);
+  }
+  return sumRange(range[1], range[0]);
 }
 
 export {
