@@ -1,25 +1,17 @@
 const range = n => new Array(n).fill().map((el, index) => index + 1);
-const isPrime = n => range(n).every(i => )
 
-  // function isPrime(i) {
-  //   var isPrime = true;
+const filterArrayForPrimeTest = (arr, num) => arr.filter(el => el >= 2 && el < num);
 
-  //   for (var j = 2; j < i; j++) {
-  //     if (i % j === 0) {
-  //       isPrime = false;
-  //     }
-  //   }
-  //   return isPrime;
-  // }
-  function sumPrimes(n) {
-    let sum = 0;
-    for (let i = 2; i <= n; i++) {
-      if (isPrime(i)) {
-        sum += i;
-      }
+const isPrime = num => filterArrayForPrimeTest(range(num), num).every(el => num % el !== 0);
+
+function sumPrimes(n) {
+  return range(n).reduce((acc, el) => {
+    if (isPrime(el)) {
+      return acc + el;
     }
-    return sum;
-  }
+    return acc;
+  }, -1);
+}
 
 export {
   sumPrimes,

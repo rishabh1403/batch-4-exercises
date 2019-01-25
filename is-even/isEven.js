@@ -1,6 +1,6 @@
 
-function isEven(n) {
-  return n%2 === 0;
+function isEven(num) {
+  return num < 2 ? num === 0 : isEven(num - 2);
 }
 
 export {

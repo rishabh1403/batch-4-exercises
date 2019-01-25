@@ -1,6 +1,6 @@
 
-function isOdd(n) {
-  return n%2 !== 0;
+function isOdd(num) {
+  return num < 2 ? num === 1 : isOdd(num - 2);
 }
 
 export {
