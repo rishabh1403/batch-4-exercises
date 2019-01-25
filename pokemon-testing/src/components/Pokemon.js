@@ -15,7 +15,10 @@ const Pokemon = ({ pokemon }) => (
 );
 
 Pokemon.propTypes = {
-  pokemon: PropTypes.string.isRequired,
+  pokemon: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Pokemon;
