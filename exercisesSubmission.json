@@ -24,8 +24,8 @@
       "rating": null
     },
     "lines-in-file": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "lines-in-file-async": {
       "completed": false,
