@@ -16,8 +16,8 @@
       "rating": null
     },
     "csv-to-json": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "date-format-tz": {
       "completed": false,
