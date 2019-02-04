@@ -28,8 +28,8 @@
       "rating": 1
     },
     "lines-in-file-async": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "node-event": {
       "completed": false,
