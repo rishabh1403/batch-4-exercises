@@ -32,8 +32,8 @@
       "rating": null
     },
     "strip-path": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     }
   }
 }
