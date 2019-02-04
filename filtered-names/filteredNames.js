@@ -1,6 +1,7 @@
+const fs = require('fs');
 
-function filteredNames(...args) {
-  return args;
+function filteredNames(directory, fileExtension) {
+  return fs.readdirSync(directory).filter(file => file.endsWith(`.${fileExtension}`));
 }
 
 export {
