@@ -4,8 +4,8 @@
   "batch": "4",
   "exercises": {
     "express-101": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 1
     },
     "templating-engine": {
       "completed": false,
