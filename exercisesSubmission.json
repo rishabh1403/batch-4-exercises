@@ -8,8 +8,8 @@
       "rating": 1
     },
     "templating-engine": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "express-forms": {
       "completed": false,
