@@ -1,7 +1,7 @@
 {
   "name": "express-middlewares",
   "version": "1.0.0",
-  "description": "- Do `npm init` to set up a node project in this directory.",
+  "description": "Testing middlewares",
   "main": "index.js",
   "scripts": {
     "start" : "node index.js"
