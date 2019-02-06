@@ -4,8 +4,8 @@
   "batch": "4",
   "exercises": {
     "basic-mongo-two": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "basic-mongo-three": {
       "completed": false,
