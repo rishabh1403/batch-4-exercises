@@ -4,8 +4,8 @@
   "batch": "4",
   "exercises": {
     "titleize": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 3
     },
     "unique-random": {
       "completed": false,
