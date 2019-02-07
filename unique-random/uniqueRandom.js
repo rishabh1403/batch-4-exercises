@@ -1,12 +1,12 @@
 
 function uniqueRandom(start, end) {
   let randomValue = start;
-  let newRandom = start;
+  let newRandomValue = start;
   return () => {
-    while (newRandom === randomValue) {
-      newRandom = Math.floor(Math.random() * end) + start;
+    while (newRandomValue === randomValue) {
+      newRandomValue = Math.floor(Math.random() * end) + start;
     }
-    randomValue = newRandom;
+    randomValue = newRandomValue;
     return randomValue;
   };
 }
