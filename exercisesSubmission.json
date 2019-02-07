@@ -8,8 +8,8 @@
       "rating": 3
     },
     "unique-random": {
-      "completed": false,
-      "rating": null
+      "completed": true,
+      "rating": 2
     },
     "simple-todo-tdd": {
       "completed": false,
