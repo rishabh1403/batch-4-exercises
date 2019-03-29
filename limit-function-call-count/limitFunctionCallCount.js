@@ -1,9 +1,9 @@
 
 function limitFunctionCallCount(fn, callCount) {
-  let count = 0;
+  let counter = 0;
   return (...args) => {
-    if (count < callCount) {
-      count += 1;
+    if (counter < callCount) {
+      counter += 1;
       return fn(...args);
     }
     return null;

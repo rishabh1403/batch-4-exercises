@@ -1,7 +1,5 @@
 
 function threeSum(arr, sum) {
-  // let ans = [];
-  // arr.sort();
   if (arr.length < 3 || typeof sum !== 'number') {
     return () => { throw new Error(); };
   }

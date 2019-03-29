@@ -2,11 +2,11 @@
 function counterFactory() {
   let count = 0;
   return {
-    increment() {
+    increment: () => {
       count += 1;
       return count;
     },
-    decrement() {
+    decrement: () => {
       count -= 1;
       return count;
     },

@@ -1,12 +1,17 @@
 
-function sumOfPerfectSquares(n) {
-  let ans = 0;
-  while (n !== 0) {
-    let num = Math.pow(Math.floor(Math.sqrt(n)), 2);
-    n = n - num;
-    ans++;
+function sumOfPerfectSquares(num) {
+  if (num <= 3) {
+    return num;
   }
-  return ans;
+  let result = num;
+  for (let i = 1; i <= num; i += 1) {
+    const temp = i * i;
+    if (temp > num) {
+      break;
+    }
+    result = Math.min(result, 1 + sumOfPerfectSquares(num - temp));
+  }
+  return result;
 }
 
 export {

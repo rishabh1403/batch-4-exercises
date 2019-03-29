@@ -1,14 +1,16 @@
 function sumFibs(n) {
-  var a = 0, b = 1, c = 1;
-  var sum = b;
-  for (var i = 0;; i++) {
-    c = a + b;
-    a = b;
-    b = c;
-    if(c%2 !== 0 && c< n){
-      sum += c
+  let firstNumber = 0;
+  let secondNumber = 1;
+  let thirdNumber = 1;
+  let sum = secondNumber;
+  for (let i = 0; ; i += 1) {
+    thirdNumber = firstNumber + secondNumber;
+    firstNumber = secondNumber;
+    secondNumber = thirdNumber;
+    if (thirdNumber % 2 !== 0 && thirdNumber < n) {
+      sum += thirdNumber;
     }
-    if(c>= n) break;
+    if (thirdNumber >= n) break;
   }
   return sum;
 }

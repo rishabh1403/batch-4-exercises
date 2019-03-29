@@ -1,4 +1,4 @@
-import {sumFibs} from './sumFibs';
+import { sumFibs } from './sumFibs';
 
 describe('sumFibs', () => {
   test('should return a number', () => {
